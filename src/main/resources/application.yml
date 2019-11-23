@@ -1,0 +1,11 @@
+validation:
+  file: validationMessages_en.properties
+
+success:
+  file: successMessages_en.properties
+  
+git:
+  url:
+    base: https://api.github.com/repos/
+    statistics:
+      commit: /stats/commit_activity
