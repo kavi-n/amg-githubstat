@@ -31,6 +31,16 @@ number of commits for that day of the week over the last year of activity
   - repo   -  Name of the repository
   - sorting - Values - asc/desc -  Order in which the average commit value to be sorted.   
  
+## Building Application
+
+Maven is used to bundle the code as spring boot jar. Below command builds the jar and will be available in target folder in the base project location
+
+`mvn clean install`
+
+Spring boot jar can be started using,
+
+`java -jar githubstat-0.0.1-SNAPSHOT.jar`
+
 ## Run Application
 
 Download the code in your local system. Get into the base project location and run the below command in bash to start the spring app.
@@ -45,12 +55,3 @@ Application runs with **port 8080**  Use below command to access the swagger in 
 
 Both the APIs will be available under Githhub Statistics. Click *Try it out*  button to execute the APIs 
 
-## Building Application
-
-Maven is used to bundle the code as spring boot jar. Below command builds the jar and will be available in target folder in the base project location
-
-`mvn clean install`
-
-Spring boot jar can we started using,
-
-`java -jar githubstat-0.0.1-SNAPSHOT.jar`
